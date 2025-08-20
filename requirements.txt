@@ -1,0 +1,23 @@
+# Core Python
+python3
+
+# Firedrake stack (with mandatory PETSc, SLEPc, Netgen during installation)
+firedrake (v0.13.0)
+(petsc4py)
+(slepc4py)
+(netgen)
+
+# Standard Python libraries (built-in, no need to install)
+os
+warnings
+csv
+collections
+
+# Scientific stack
+numpy
+scipy
+matplotlib   # for plotting; enable LaTeX rendering
+
+# Optional / script-specific
+defcon   # only required for the DefCon solver
+
