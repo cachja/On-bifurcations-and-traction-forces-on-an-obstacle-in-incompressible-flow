@@ -9,3 +9,4 @@ License.
 - Firedrake
 - Netgen
 - defcon
+- or use `firedrake.json`
